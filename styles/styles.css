@@ -4,7 +4,7 @@ html {
 
 *, *::after, *::before {
   box-sizing: inherit;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header-wrapper {
@@ -41,7 +41,7 @@ html {
   margin-left: 10px;
 }
 
-.main {
+.title-container {
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -51,6 +51,7 @@ html {
   width: 100%;
   max-width: 650px;
   margin: 0px 15px;
+  border-bottom: 1px solid lightgray;
 }
 
 #article-name {
@@ -65,4 +66,33 @@ html {
   font-weight: 200;
   color: #606060;
   margin-top: -15px;
+}
+
+.toolbar-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  max-width: 650px;
+  height: 45px;
+  margin: 0px 15px;
+  border-bottom: 1px solid gray;
+}
+
+.toolbar img {
+  width: 22px;
+}
+
+.toolbar a:first-of-type {
+  margin-right: auto;
+}
+
+.toolbar a:last-of-type {
+  margin-left: 10px;
 }
