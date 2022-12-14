@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+  font-family: sans-serif;
+}
+
+.header-wrapper {
+  width: 100vw;
+  height: 50px;
+  background-color: #eaecf0;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  height: 100%;
+  width: 100%;
+  max-width: 650px;
+  margin: 0px 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.menu img,
+.search img {
+  height: 25px;
+}
+
+.search {
+  margin-left: auto;
+  position: absolute;
+  right: 0px;
+}
+
+.logo img {
+  height: 20px;
+  margin-left: 10px;
+}
