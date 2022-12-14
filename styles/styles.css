@@ -96,3 +96,30 @@ html {
 .toolbar a:last-of-type {
   margin-left: 10px;
 }
+
+.intro-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.intro {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 15px;
+}
+
+.intro p {
+  font-size: 0.95rem;
+  font-weight: 300;
+  color: rgb(65, 65, 65);
+}
+
+.intro span {
+  font-weight: 700;
+}
+
+.intro a {
+  text-decoration: none;
+  color: rgb(0, 72, 255);
+}
